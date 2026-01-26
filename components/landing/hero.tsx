@@ -36,7 +36,7 @@ export function Hero() {
                 playsInline
                 className="w-full h-full object-cover"
               >
-                <source src="/videos/Meraki-wellness.mp4" type="video/mp4" />
+                <source src="/videos/Meraki-wellness-720.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
