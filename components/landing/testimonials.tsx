@@ -1,0 +1,64 @@
+export function Testimonials() {
+  const testimonials = [
+    {
+      quote: "The Rungu massage was unlike anything I've experienced. Truly deep relaxation. The therapist was incredibly knowledgeable.",
+      author: "Sarah Jenkins",
+      letter: "S",
+    },
+    {
+      quote: "Meraki is a gem in Windhoek. The atmosphere transports you immediately. Highly recommend the Optiphi facial.",
+      author: "Michael H.",
+      letter: "M",
+    },
+    {
+      quote: "Professional, clean, and luxurious. The staff really care about your well-being. Best spa day I've had in years.",
+      author: "Elize Van Wyk",
+      letter: "E",
+    },
+  ];
+
+  return (
+    <section className="bg-[#fbf8f3] py-24 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 md:px-10">
+        <h2 className="text-secondary text-4xl font-serif-display font-medium text-center mb-16">
+          Voices of Relaxation
+        </h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          {testimonials.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white p-10 rounded-2xl shadow-md border border-[#f2ebe0] relative mt-4 md:mt-0"
+            >
+              <span className="material-symbols-outlined text-primary/10 text-8xl absolute -top-6 -left-2 select-none">
+                format_quote
+              </span>
+              <p className="text-text-main italic mb-8 relative z-10 font-light leading-relaxed">
+                "{item.quote}"
+              </p>
+              <div className="flex items-center gap-4 border-t border-[#f2ebe0] pt-6">
+                <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold font-serif-display">
+                  {item.letter}
+                </div>
+                <div>
+                  <p className="text-secondary font-bold text-sm uppercase tracking-wider">
+                    {item.author}
+                  </p>
+                  <div className="flex text-accent-gold text-xs mt-1 gap-0.5">
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <span
+                        key={star}
+                        className="material-symbols-outlined text-[16px] leading-[1]"
+                      >
+                        star
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
