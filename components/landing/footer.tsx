@@ -68,7 +68,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="#services" className="hover:text-white transition-colors">
-                  Services
+                  Treatments
                 </Link>
               </li>
               <li>
@@ -77,13 +77,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="hover:text-white transition-colors">
-                  Contact
+                <Link href="#" className="hover:text-white transition-colors">
+                  Gallery
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Gift Vouchers
+                <Link href="#contact" className="hover:text-white transition-colors">
+                  Contact
                 </Link>
               </li>
             </ul>

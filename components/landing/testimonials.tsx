@@ -29,7 +29,7 @@ export function Testimonials() {
               key={index}
               className="bg-white p-10 rounded-2xl shadow-md border border-[#f2ebe0] relative mt-4 md:mt-0"
             >
-              <span className="material-symbols-outlined text-primary/10 text-8xl absolute -top-6 -left-2 select-none">
+              <span className="material-symbols-outlined text-primary/60 text-8xl absolute top-6 left-2 select-none">
                 format_quote
               </span>
               <p className="text-text-main italic mb-8 relative z-10 font-light leading-relaxed">

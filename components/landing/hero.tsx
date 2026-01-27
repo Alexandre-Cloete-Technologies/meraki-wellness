@@ -27,18 +27,15 @@ export function Hero() {
           </div>
 
           {/* Right Column: Video */}
-          <div className="w-full lg:w-1/2 relative h-full flex items-center justify-center">
-            <div className="relative w-[100% ] aspect-[9/16] md:aspect-video lg:aspect-[9/16] max-h-[80vh] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/50">
-               <video
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover"
-              >
-                <source src="/videos/Meraki-wellness-720.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+          <div className="w-full lg:w-1/2 relative h-full">
+            <div className="relative h-full max-h-[80vh] w-auto aspect-[9/16] rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-primary-alt mx-auto">
+               <iframe
+                src="https://www.youtube.com/embed/EJ49a0UyTPE?autoplay=1&mute=1&controls=0&loop=1&playlist=EJ49a0UyTPE"
+                className="w-full h-full pointer-events-none scale-105"
+                title="Hero Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
              {/* Decorative Elements */}
             <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-primary/80 rounded-full blur-3xl z-2" />

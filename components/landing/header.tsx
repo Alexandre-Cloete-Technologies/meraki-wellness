@@ -8,7 +8,7 @@ export function Header() {
       <div className="px-4 md:px-10 py-4 max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Link href="/" className="flex items-center gap-2">
-            <div className="relative w-20 h-20 flex items-center justify-center overflow-hidden ">
+            <div className="relative w-20 h-20 flex items-center justify-center  rounded-full overflow-hidden ">
               <Image
                 alt="Meraki Logo"
                 src="/images/Meraki-logo.webp"
@@ -20,7 +20,7 @@ export function Header() {
         </div>
         <div className="hidden md:flex flex-1 justify-end gap-10 items-center">
           <nav className="flex items-center gap-8">
-            {["Home", "Services", "About", "Gallery", "Contact"].map((item) => (
+            {["Home", "Treatments", "About", "Gallery", "Contact"].map((item) => (
               <Link
                 key={item}
                 href={item === "Home" ? "#" : `#${item.toLowerCase()}`}
