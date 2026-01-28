@@ -30,9 +30,11 @@ export function Header() {
               </Link>
             ))}
           </nav>
+          <Link href="https://www.fresha.com/a/meraki-wellness-centre-windhoek-the-village-liliencron-street-bf9zjf91" target="_blank">
           <Button className="bg-primary hover:bg-[#7a4c3a] text-white px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest transition-transform hover:shadow-lg active:scale-95 h-auto">
             Book Now
           </Button>
+          </Link>
         </div>
         <button className="md:hidden text-secondary">
           <span className="material-symbols-outlined text-3xl">menu</span>

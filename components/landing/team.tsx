@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 export function Team() {
   const team = [
@@ -60,6 +62,12 @@ export function Team() {
                         <p>
                             Hendrina possesses over 4 years experience in managerial position onboard cruise lines working for One Spa World in the US. Hendrina completed her beauty therapy upgraded and customer service modules in Miami.
                         </p>
+                          <Link href="https://www.fresha.com/p/hendrina-nghifitikeko-5979906" target="_blank">
+                         <Button variant="ghost" className="text-accent-gold flex items-center gap-3 hover:text-primary transition-colors font-serif-display italic text-xl">
+                           View my profile on Fresha
+            <span className="material-symbols-outlined text-accent-gold">arrow_right_alt</span>
+          </Button>
+                           </Link>
                     </div>
                 </div>
                 <div className="order-1 lg:order-2 flex justify-center lg:justify-end">

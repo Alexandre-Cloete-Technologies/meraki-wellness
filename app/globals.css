@@ -142,3 +142,22 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background-alt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 6px;
+  border: 3px solid var(--color-background-alt);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}

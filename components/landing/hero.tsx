@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -18,12 +19,14 @@ export function Hero() {
               heart of Namibia. A sanctuary designed to restore your natural
               balance.
             </p>
+            <Link href="https://www.fresha.com/a/meraki-wellness-centre-windhoek-the-village-liliencron-street-bf9zjf91" target="_blank">
             <Button className="bg-primary hover:bg-[#7a4c3a] text-white px-10 py-6 rounded-full text-sm font-bold tracking-widest uppercase transition-all shadow-xl hover:shadow-2xl flex items-center gap-3 h-auto">
               <span className="material-symbols-outlined text-lg">
                 calendar_month
               </span>
               Book Your Treatment
             </Button>
+            </Link>
           </div>
 
           {/* Right Column: Video */}
