@@ -11,6 +11,7 @@ import { Menu } from "@/components/landing/menu";
 import { WhyUs } from "@/components/landing/why-us";
 import { Testimonials } from "@/components/landing/testimonials";
 import { Footer } from "@/components/landing/footer";
+import { CtaSection } from "@/components/landing/cta-section";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Menu />
       <WhyUs />
       <Testimonials />
+      <CtaSection />
       <Steps />
       <Footer />
     </main>

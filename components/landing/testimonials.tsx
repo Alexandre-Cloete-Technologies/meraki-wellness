@@ -1,19 +1,19 @@
 export function Testimonials() {
   const testimonials = [
     {
-      quote: "The Rungu massage was unlike anything I've experienced. Truly deep relaxation. The therapist was incredibly knowledgeable.",
-      author: "Sarah Jenkins",
-      letter: "S",
+      quote: "I opted for a pedicure and eyebrow plucking. The treatments were performed very professionally and with absolutely fantastic quality. The price was unbeatable. The atmosphere is great, and the staff are extremely friendly. The complex also has a nice restaurant, which is a great place to relax while you wait. A fantastic experience, highly recommended. Thank you.",
+      author: "Nicole S.",
+      letter: "N",
     },
     {
-      quote: "Meraki is a gem in Windhoek. The atmosphere transports you immediately. Highly recommend the Optiphi facial.",
-      author: "Michael H.",
-      letter: "M",
+      quote: "Meraki ♥️♥️such an amazing experience. From reception to the rooms such a clean and peaceful atmosphere ✨definitely exceeded my expectations ☺️",
+      author: "Cassandra C.",
+      letter: "C",
     },
     {
-      quote: "Professional, clean, and luxurious. The staff really care about your well-being. Best spa day I've had in years.",
-      author: "Elize Van Wyk",
-      letter: "E",
+      quote: "An absolutely wonderful and relaxing experience. Lulu is an experienced and professional therapist who takes her time understanding her clients needs. 10/10 recommended for deep tissue and reflexology massages. Thanks!",
+      author: "Taime S.",
+      letter: "T",
     },
   ];
 
@@ -27,12 +27,12 @@ export function Testimonials() {
           {testimonials.map((item, index) => (
             <div
               key={index}
-              className="bg-white p-10 rounded-2xl shadow-md border border-[#f2ebe0] relative mt-4 md:mt-0"
+              className="bg-white p-10 rounded-2xl shadow-md border border-[#f2ebe0] relative mt-4 md:mt-0 flex flex-col justify-between gap-4"
             >
               <span className="material-symbols-outlined text-primary/60 text-8xl absolute top-6 left-2 select-none">
                 format_quote
               </span>
-              <p className="text-text-main italic mb-8 relative z-10 font-light leading-relaxed">
+              <p className="text-text-main italic relative z-10 font-light leading-relaxed">
                 "{item.quote}"
               </p>
               <div className="flex items-center gap-4 border-t border-[#f2ebe0] pt-6">
