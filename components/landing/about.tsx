@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 export function About() {
@@ -58,7 +57,7 @@ export function About() {
             <p className="text-text-main text-lg mb-6 leading-relaxed font-light">
               At Meraki Wellness Centre, we bring you a unique blend of ancient
               African healing wisdom and modern wellness science. Our sanctuary
-              is more than just a spa; it's a homage to the warmth of the
+              is more than just a spa; it&quot;s a homage to the warmth of the
               Namibian spirit.
             </p>
             <p className="text-text-main text-lg mb-10 leading-relaxed font-light">

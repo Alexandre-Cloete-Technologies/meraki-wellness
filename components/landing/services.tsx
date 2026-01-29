@@ -1,5 +1,7 @@
+'use client'
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export function Services() {
   const services = [
@@ -39,9 +41,36 @@ export function Services() {
         </h2>
         <div className="w-px h-16 bg-primary/40 mx-auto" />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={{
+          hidden: { opacity: 0 },
+          visible: {
+            opacity: 1,
+            transition: {
+              staggerChildren: 0.2,
+              delayChildren: 0.2,
+            },
+          },
+        }}
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10"
+      >
         {services.map((service) => (
-          <div key={service.title} className="group flex flex-col items-center text-center">
+          <motion.div
+            key={service.title}
+            variants={{
+              hidden: { opacity: 0, y: 20, scale: 1.2 },
+              visible: {
+                opacity: 1,
+                y: 0,
+                scale: 1,
+                transition: { duration: 0.8, ease: "easeInOut" },
+              },
+            }}
+            className="group flex flex-col items-center text-center"
+          >
             <div className="relative w-full aspect-square max-w-[280px] rounded-full overflow-hidden border-4 border-white shadow-xl mb-6 transition-transform duration-500 group-hover:scale-105">
               <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors z-10" />
               <Image
@@ -63,9 +92,9 @@ export function Services() {
             >
               Discover
             </Link>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 }

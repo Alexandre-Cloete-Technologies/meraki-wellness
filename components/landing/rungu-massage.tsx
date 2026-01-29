@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export function RunguMassage() {
@@ -16,7 +15,7 @@ export function RunguMassage() {
             African Rungu Massage
           </h2>
           <p className="text-text-main text-lg mb-8 font-light leading-relaxed">
-            An ancient massage technique using the "Rungu", a wooden throwing club
+            An ancient massage technique using the &quot;Rungu&quot;, a wooden throwing club
             used by warrior tribes in East Africa. The Rungu is used to deliver
             long, deep pressure strokes that stimulate circulation and lymph
             drainage.

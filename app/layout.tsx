@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Playfair_Display, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
+import "material-symbols/outlined.css";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -19,7 +20,8 @@ const bodoni = Bodoni_Moda({
 
 export const metadata: Metadata = {
   title: "Meraki Wellness Centre | Luxury African Spa",
-  description: "Experience the essence of African luxury and holistic healing in the heart of Namibia.",
+  description: "Experience the essence of African luxury and holistic healing in the heart of Namibia. Make a booking today for a massage, facial, or any of our other wellness treatments.",
+  keywords: ["Meraki Wellness Centre", "Luxury African Spa", "Namibia", "Massage Eros", "Facial", "Wellness Treatments", "Spa", "Eros", "Massage Windhoek", "Facial Windhoek", "Wellness Treatments Windhoek", "Spa Windhoek", "Spa Eros"],
 };
 
 export default function RootLayout({
@@ -30,10 +32,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <body
         className={`${manrope.variable} ${playfair.variable} ${bodoni.variable} font-display antialiased bg-background-light text-text-main`}

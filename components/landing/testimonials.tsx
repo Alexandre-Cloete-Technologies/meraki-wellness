@@ -33,7 +33,7 @@ export function Testimonials() {
                 format_quote
               </span>
               <p className="text-text-main italic relative z-10 font-light leading-relaxed">
-                "{item.quote}"
+                &quot;{item.quote}&quot;
               </p>
               <div className="flex items-center gap-4 border-t border-[#f2ebe0] pt-6">
                 <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold font-serif-display">
