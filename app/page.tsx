@@ -4,6 +4,7 @@ import { Steps } from "@/components/landing/steps";
 import { Services } from "@/components/landing/services";
 import { About } from "@/components/landing/about";
 import { Team } from "@/components/landing/team";
+import { Locations } from "@/components/landing/locations";
 import { RunguMassage } from "@/components/landing/rungu-massage";
 import { Gallery } from "@/components/landing/gallery";
 import { ChemicalPeels } from "@/components/landing/chemical-peels";
@@ -23,11 +24,13 @@ export default function Home() {
       <Services />
       <About />
       <Team />
-      <RunguMassage />
+      <Locations />
+     
+
       <Gallery />
-      <ChemicalPeels />
+     
       <Menu />
-      <WhyUs />
+     
       <Testimonials />
       <CtaSection />
       <Steps />

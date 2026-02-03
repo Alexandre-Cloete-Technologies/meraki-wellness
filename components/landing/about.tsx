@@ -55,14 +55,14 @@ export function About() {
             <h3 className="text-primary font-bold text-xs tracking-[0.2em] uppercase mb-4">
               WHO WE ARE
             </h3>
-            <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium leading-[1.1] mb-8">
-              Where Tranquility Meets <br />
-              <span className="italic">Mind and Soul</span>
+            <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium tracking-tighter leading-[1.1] mb-8">
+Namibian Excellence meets 
+              Wellness Innovation
             </h2>
             <p className="text-text-main text-lg mb-6 leading-relaxed font-light">
               At Meraki Wellness Centre, we bring you a unique blend of ancient
               African healing wisdom and modern wellness science. Our sanctuary
-              is more than just a spa; it&quot;s a homage to the warmth of the
+              is more than just a spa; it&apos;s a homage to the warmth of the
               Namibian spirit.
             </p>
             <p className="text-text-main text-lg mb-10 leading-relaxed font-light">
@@ -79,9 +79,7 @@ export function About() {
         </div>
       </div>
      
-<div className="absolute -left-20 top-[33%] text-[300px] leading-none text-white/40 font-serif-display select-none z-0">
-        Our <br/> Values
-      </div>
+
       
       <div className="max-w-7xl mx-auto px-4 md:px-10 py-16 relative z-10">
         <div className="flex flex-col lg:flex-row-reverse gap-20 items-center">
@@ -116,11 +114,11 @@ export function About() {
               Connection. Balance. Tradition.
             </h3>
             <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium leading-[1.1] mb-8">
-              Authentic African Wellness <br />
+              Authentic African Wellness
               {/* <span className="italic">Connection. Balance. Tradition.</span> */}
             </h2>
             <p className="text-text-main text-lg mb-6 leading-relaxed font-light">
-              Founded and proudly owned by Namibian Women, Meraki is built on a deep understanding of self-care and holistic well-being. 
+              Founded and proudly owned by Namibian women, Meraki is built on a deep understanding of self-care and holistic well-being. 
             </p>
             <p className="text-text-main text-lg mb-4 leading-relaxed font-light">
               While the concept of spas has traditionally been rooted in European traditions, Meraki Wellness
@@ -138,10 +136,42 @@ experience.
         </div>
       </div>
 
-      
-      <div className="absolute -left-20 bottom-20 text-[300px] leading-none text-white/40 font-serif-display select-none z-0">
-        Our <br/> Vision
+      <div className="max-w-7xl mx-auto px-4 md:px-10 py-16 relative z-10">
+        <div className="flex flex-col lg:flex-row gap-20 items-center">
+          <div className="w-full lg:w-1/2 relative order-2 lg:order-1">
+            <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white ">
+              <Image
+                alt="Outdoor Photo of Meraki Wellness Centre"
+                src="/images/meraki-vision.jpeg"
+                width={800}
+                height={600}
+                className="w-full object-cover"
+              />
+            </div>
+           
+          </div>
+          <div className="w-full lg:w-1/2 order-1 lg:order-2">
+            <h3 className="text-primary font-bold text-xs tracking-[0.2em] uppercase mb-4">
+              Our Story
+            </h3>
+            <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium leading-[1.1] mb-8">
+            Training Hands, <br/><span className="italic">Transforming Lives</span>
+            </h2>
+            <p className="text-text-main text-lg mb-6 leading-relaxed font-light">
+              Hendrina started Meraki with a simple belief: when women support women, incredible things happen. Every therapist here has been personally trained by her—learning not just technique, but the heart behind every treatment.
+            </p>
+            <p className="text-text-main text-lg mb-4 leading-relaxed font-light">
+              We&apos;re proud to hold international certifications, but what really matters to us is creating real opportunities for women in wellness—careers with purpose, growth, and the chance to thrive.
+            </p>
+             <p className="text-text-main text-lg mb-4 leading-relaxed font-light">
+               This isn&apos;t just a business. It&apos;s proof that women-led dreams can become world-class realities—and we&apos;re just getting started.
+            </p>
+            
+            
+          </div>
+        </div>
       </div>
+      
       <div className="max-w-7xl mx-auto px-4 md:px-10 relative z-10">
         <div className="flex flex-col lg:flex-row gap-20 items-center">
           
@@ -178,7 +208,7 @@ wellness practices, indigenous ingredients, and African-inspired design into eve
 of our services.
             </p>
 </div>
- <div className="relative overflow-hidden rounded-lg w-2/5">
+ <div className="relative overflow-hidden rounded-lg w-1/4">
               <Image
                 alt="Namibian Flag"
                 src="/images/meraki-authenticity.jpg"
@@ -218,7 +248,7 @@ of our services.
 reflects our premium standards.
             </p>
          </div>
- <div className="relative overflow-hidden rounded-lg w-2/5">
+ <div className="relative overflow-hidden rounded-lg w-1/4">
               <Image
                 alt="Namibian Flag"
                 src="/images/excellence-meraki.jpg"
@@ -257,7 +287,7 @@ us to tailor treatments that meet individual needs and enhance overall well-bein
             </p>
 </div>
 
- <div className="relative overflow-hidden rounded-lg w-2/5">
+ <div className="relative overflow-hidden rounded-lg w-1/4">
               <Image
                 alt="Namibian Flag"
                 src="/images/personalized-care-meraki.jpg"
@@ -339,7 +369,7 @@ professionals within the spa and wellness industry.
             </p>
 
             </div>
- <div className="relative overflow-hidden rounded-lg w-2/5">
+ <div className="relative overflow-hidden rounded-lg w-1/4">
               <Image
                 alt="Namibian Flag"
                 src="/images/sustainability-and-community-meraki.jpg"

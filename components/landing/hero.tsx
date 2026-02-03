@@ -13,13 +13,13 @@ export function Hero() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.5, ease: "easeIn" }} className="w-full lg:w-full flex flex-col items-center lg:items-center text-center relative lg:text-left z-10">
             
             <motion.h1 className="text-secondary text-4xl md:text-6xl lg:text-7xl font-serif-display font-medium font-dancing leading-[1.1] mb-8 drop-shadow-sm text-center">
-            Where Namibian Excellence <br/> Meets <br /> 
+            Where Tranquility meets <br/> the Mind and Soul <br /> 
               <motion.span initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.8, delay: 1.2, ease: "easeIn" }}  className="italic relative bottom-8 text-primary font-dancing  text-5xl md:text-7xl lg:text-8xl">Wellness Innovation</motion.span>
+    transition={{ duration: 0.8, delay: 1.2, ease: "easeIn" }}  className="italic relative bottom-8 text-primary font-dancing  text-5xl md:text-7xl lg:text-8xl">Meraki</motion.span>
             </motion.h1>
             <motion.p className="text-text-main text-lg md:text-xl font-light max-w-xl -mt-12 leading-relaxed tracking-wide text-center">
-Built by women. Powered by international standards. Ready to scale across Africa.            </motion.p>
+Ancient african rituals meet modern luxury — <br/> where every touch transforms.             </motion.p>
             {/* <Link href="https://www.fresha.com/a/meraki-wellness-centre-windhoek-the-village-liliencron-street-bf9zjf91" target="_blank">
             <Button className="bg-primary hover:bg-[#7a4c3a] text-white px-10 py-6 rounded-full text-sm font-bold tracking-widest uppercase transition-all shadow-xl hover:shadow-2xl flex items-center gap-3 h-auto">
               <span className="material-symbols-outlined text-lg">

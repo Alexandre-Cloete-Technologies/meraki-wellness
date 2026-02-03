@@ -3,36 +3,7 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 
 export function Team() {
-  const team = [
-    {
-      name: "Tamera Mungunda",
-      role: "Spa Therapist / Spa Manager",
-      description:
-        "Tamera is a qualified beauty therapist. She's a Certified Masseuse, Facialist, Nail Technician, and wax therapist. Tamera completed her studies at Shandonai Beauty in Windhoek. Tamera is big on helping and multitasking which makes her a leader - great Team-player indeed. Tamera lives up to being a team player and an example for others; she's a perfectionist and pays attention to detail.",
-      
-      image: "/images/team-tamera.jpg",
-      objectPosition: "top",
-     
-    },
-    {
-      name: "Merie-ann A Rudatt",
-      role: "Qualified Nail Technician",
-      description:
-        "Aims to provide the best customer service. Maintains a clean and sanitary work environment at all times. Utilizes advanced technical skills to achieve beautiful manures and pedicures. Applies knowledge of hand and feet anatomy to enhance the physical contact experience. Performs nail and hand rejuvenation treatments.",
-      
-      image: "/images/team-merie-ann.jpg", 
-      
-    },
-    {
-      name: "Suama Christoph",
-      role: "Qualified Therapist",
-      description:
-        "She is a great masseuse & completed her training at Shandonai Beauty School in Windhoek. She is able to step in and ASSIST as a nail technician, wax therapist, facialist. She has great customer service skills, potential leadership skills, she's a great team player. When well motivated she strives to deliver and perform at her highest quality and standards possible.",
-      
-      image: "/images/team-suama.jpg",
-       
-    },
-  ];
+  
 
   return (
     <section className="py-24 px-4 md:px-10 max-w-7xl mx-auto bg-background-light">
@@ -74,9 +45,9 @@ export function Team() {
                     <div className="relative w-full max-w-md aspect-[3/4] rounded-[2rem] overflow-hidden border-4 border-[#d4af37]/30 shadow-xl">
                          <Image
                             alt="Hendrina Amakali - The MD"
-                            src="/images/team-md.jpg"
+                            src="/images/team-md2.jpg"
                             fill
-                            className="object-cover object-[center_20%]"
+                            className="object-cover object-[center_20%] scale-120"
                          />
                     </div>
                 </div>
@@ -84,36 +55,7 @@ export function Team() {
          </div>
       </div>
 
-      {/* Team Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {team.map((member) => (
-          <div
-            key={member.name}
-            className="bg-white p-6 rounded-[2rem] shadow-lg border border-[#f2ebe0] text-center hover:shadow-xl transition-shadow flex flex-col items-center group relative overflow-hidden"
-          >
-             <div className="absolute top-0 left-0 w-full h-2 bg-primary/20 group-hover:bg-primary transition-colors"></div>
-            <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden shadow-md relative border-4 border-background-light group-hover:border-primary/20 transition-colors">
-              <Image
-                alt={member.name}
-                src={member.image}
-                fill
-                className="object-cover"
-                style={{ objectPosition: member.objectPosition }}
-
-              />
-            </div>
-            <h3 className="text-secondary text-2xl font-serif-display font-bold mb-1">
-              {member.name}
-            </h3>
-            <p className="text-primary text-xs font-bold uppercase tracking-widest mb-6">
-              {member.role}
-            </p>
-            <p className="text-text-muted text-sm leading-relaxed mb-4 line-clamp-6 hover:line-clamp-none transition-all">
-              {member.description}
-            </p>
-          </div>
-        ))}
-      </div>
+      
     </section>
   );
 }
