@@ -18,7 +18,7 @@ export function Testimonials() {
   ];
 
   return (
-    <section className="bg-[#fbf8f3] py-24 overflow-hidden">
+    <section className="bg-[#f2ebe0] py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <h2 className="text-secondary text-4xl font-serif-display font-medium text-center mb-16">
           Voices of Relaxation

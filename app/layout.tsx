@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Manrope, Playfair_Display, Bodoni_Moda } from "next/font/google";
+import { Manrope, Playfair_Display, Bodoni_Moda, Dancing_Script } from "next/font/google";
 import "./globals.css";
 import "material-symbols/outlined.css";
 
@@ -18,6 +18,12 @@ const bodoni = Bodoni_Moda({
   variable: "--font-bodoni",
 });
 
+const dancing = Dancing_Script({
+  subsets: ["latin"],
+  variable: "--font-dancing",
+  weight: ["400"],
+});
+
 export const metadata: Metadata = {
   title: "Meraki Wellness Centre | Luxury African Spa",
   description: "Experience the essence of African luxury and holistic healing in the heart of Namibia. Make a booking today for a massage, facial, or any of our other wellness treatments.",
@@ -34,7 +40,7 @@ export default function RootLayout({
       <head>
       </head>
       <body
-        className={`${manrope.variable} ${playfair.variable} ${bodoni.variable} font-display antialiased bg-background-light text-text-main`}
+        className={`${manrope.variable} ${playfair.variable} ${bodoni.variable} ${dancing.variable}  antialiased bg-background-light text-text-main`}
       >
         {children}
       </body>
