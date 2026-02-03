@@ -12,12 +12,14 @@ import { WhyUs } from "@/components/landing/why-us";
 import { Testimonials } from "@/components/landing/testimonials";
 import { Footer } from "@/components/landing/footer";
 import { CtaSection } from "@/components/landing/cta-section";
+import { ScrollVideo } from "@/components/landing/scroll-video";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background-light font-display">
       <Header />
       <Hero />
+      <ScrollVideo />
       <Services />
       <About />
       <Team />
