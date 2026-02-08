@@ -25,12 +25,8 @@ export default function Home() {
       <About />
       <Team />
       <Locations />
-     
-
       <Gallery />
-     
       <Menu />
-     
       <Testimonials />
       <CtaSection />
       <Steps />
