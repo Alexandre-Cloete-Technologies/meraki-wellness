@@ -15,10 +15,10 @@ const locationsData = [
     image: '/images/tranquility-and-balance-meraki.jpg',
     bookingLink: 'https://www.fresha.com/p/hendrina-nghifitikeko-5979906',
     staff: [
-      { name: 'Hendrina Nghifitikeko', role: 'MD', image: '/images/team-md.jpg', objectPosition: '65% 16%' }, 
-      { name: 'Albertine', role: 'Spa Therapist', image: '/images/team-albertine.jpeg' },
-       { name: 'Loritha', role: 'Spa Therapist', image: '/images/team-loritha.jpeg' },
-      { name: 'Cassandra', role: 'Spa Therapist', image: '/images/team-cassandra.jpeg' },
+      { name: 'Hendrina Nghifitikeko', role: 'MD', image: '/images/team-md.jpg', objectPosition: '65% 20%' }, 
+      { name: 'Albertine', role: 'Spa Therapist', image: '/images/team-albertine.jpeg', objectPosition: '65% 30%' },
+       { name: 'Loritha', role: 'Spa Therapist', image: '/images/team-loritha.jpeg', objectPosition: '65% 20%' },
+      { name: 'Cassandra', role: 'Spa Therapist', image: '/images/team-cassandra.jpeg', objectPosition: '65% 30%' },
       { name: 'Josephine', role: 'Spa Therapist', image: '' },
     ],
   },
@@ -31,7 +31,7 @@ const locationsData = [
     staff: [
       { name: 'Anna', role: 'Spa Therapist', image: '' },
      { name: 'Ebba', role: 'Spa Therapist', image: '' }, 
-       { name: 'Idda', role: 'Spa Therapist', image: '/images/team-idda.jpeg' },
+       { name: 'Idda', role: 'Spa Therapist', image: '/images/team-idda.jpeg', objectPosition: '65% 30%' },
     ],
   },
 ];
