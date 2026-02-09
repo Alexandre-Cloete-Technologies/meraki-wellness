@@ -331,7 +331,7 @@ holistic harmony between the body, mind, and soul.
             </div>
   <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.5, ease: "easeIn" }} className="relative h-full max-h-[80vh] w-auto aspect-[9/16] rounded-xl overflow-hidden shadow-2xl mx-auto">
                <iframe
-                src="https://www.youtube.com/embed/EJ49a0UyTPE?autoplay=1&mute=1&controls=0&loop=1&playlist=EJ49a0UyTPE"
+                src="https://www.youtube.com/embed/S868YE1eRlQ?autoplay=1&mute=1&controls=0&loop=1&playlist=S868YE1eRlQ"
                 className="w-full h-full pointer-events-none scale-105"
                 title="Tranquility & Balance Core value"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
