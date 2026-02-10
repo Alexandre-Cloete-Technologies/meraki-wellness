@@ -79,7 +79,7 @@ export function Locations() {
   return (
     <section
       ref={containerRef}
-      className="relative w-full bg-background-alt overflow-hidden hidden lg:block"
+      className="relative w-full bg-background-alt overflow-hidden"
       style={{ height: '100vh' }}
     >
       {/* Sticky container */}
