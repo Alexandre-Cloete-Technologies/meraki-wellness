@@ -237,7 +237,6 @@ of our services.
          
          <div className="flex flex-col items-center lg:items-start gap-2 w-full lg:w-1/2">
 
-
             <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium leading-[1.1]">
               Excellence 
               
