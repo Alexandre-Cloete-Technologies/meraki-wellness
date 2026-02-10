@@ -16,7 +16,7 @@ export function Hero() {
             Where Tranquility meets <br/> the Mind and Soul <br /> 
               <motion.span initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.8, delay: 1.2, ease: "easeIn" }}  className="italic relative bottom-8 text-primary font-dancing  text-5xl md:text-7xl lg:text-8xl">Meraki</motion.span>
+    transition={{ duration: 0.8, delay: 1.2, ease: "easeIn" }}  className="italic relative bottom-4 sm:bottom-8 text-primary font-dancing  text-5xl md:text-7xl lg:text-8xl">Meraki</motion.span>
             </motion.h1>
             <motion.p className="text-text-main text-lg md:text-xl font-light max-w-xl -mt-12 leading-relaxed tracking-wide text-center">
 Ancient african rituals meet modern luxury — <br/> where every touch transforms.             </motion.p>

@@ -21,7 +21,9 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <Link
-                href="#"
+                href="https://www.facebook.com/p/Meraki-Wellness-Center-100063910850458/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white hover:text-accent-burgundy transition-all"
               >
                 <svg
@@ -38,7 +40,9 @@ export function Footer() {
                 </svg>
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/meraki_wellness_center/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white hover:text-accent-burgundy transition-all"
               >
                 <svg
@@ -98,22 +102,22 @@ export function Footer() {
                   location_on
                 </span>
                 <span>
-                  123 Sam Nujoma Drive,
+                 150 Olof Palme street, Eros
                   <br />
-                  Klein Windhoek, Namibia
+                  Unit 16, The Village, Liliencrone street, Eros
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-white/50 text-sm">
                   call
                 </span>
-                <span>+264 61 123 4567</span>
+                <span>081 247 8077</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-white/50 text-sm">
                   mail
                 </span>
-                <span>relax@merakiwellness.na</span>
+                <span>merakiwellnessc@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -124,24 +128,21 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-white/70">
               <li className="flex justify-between border-b border-white/10 pb-2">
                 <span>Mon - Fri</span>
-                <span>08:00 - 18:00</span>
+                <span>08:00 - 19:00</span>
               </li>
               <li className="flex justify-between border-b border-white/10 pb-2">
-                <span>Saturday</span>
-                <span>09:00 - 15:00</span>
+                <span>Saturday & Sunday</span>
+                <span>08:00 - 15:00</span>
               </li>
-              <li className="flex justify-between">
-                <span>Sunday</span>
-                <span className="text-white/50">Closed</span>
-              </li>
+              
             </ul>
           </div>
         </div>
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-white/40">
           <p>© {new Date().getFullYear()} Meraki Wellness Centre. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="#" className="hover:text-white transition-colors">
-              Designed and Developed by <span className="font-bold">ACT</span>
+            <Link href="https://wa.me/264816389757" className="">
+              Designed and Developed by <span className="font-bold hover:text-white transition-colors">Alexandre Cloete Technologies</span>
             </Link>
           </div>
         </div>

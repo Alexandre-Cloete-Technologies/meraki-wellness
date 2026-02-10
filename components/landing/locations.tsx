@@ -11,11 +11,11 @@ const locationsData = [
   {
     key: 'eros',
     name: 'Eros',
-    address: 'Olof Palme Street, Eros, Windhoek',
+    address: '150, Olof Palme Street, Eros, Windhoek',
     image: '/images/tranquility-and-balance-meraki.jpg',
     bookingLink: 'https://www.fresha.com/p/hendrina-nghifitikeko-5979906',
     staff: [
-      { name: 'Hendrina Nghifitikeko', role: 'MD', image: '/images/team-md.jpg', objectPosition: '65% 20%' }, 
+      { name: 'Hendrina', role: 'MD', image: '/images/team-md.jpg', objectPosition: '65% 20%' }, 
       { name: 'Albertine', role: 'Spa Therapist', image: '/images/team-albertine.jpeg', objectPosition: '65% 30%' },
        { name: 'Loritha', role: 'Spa Therapist', image: '/images/team-loritha.jpeg', objectPosition: '65% 20%' },
       { name: 'Cassandra', role: 'Spa Therapist', image: '/images/team-cassandra.jpeg', objectPosition: '65% 30%' },
@@ -25,7 +25,7 @@ const locationsData = [
   {
     key: 'the-village',
     name: 'The Village',
-    address: 'The Village, Liliencron Street, Windhoek',
+    address: 'Unit 16, The Village, Liliencron Street, Windhoek',
     image: '/images/meraki-wellness.jpeg',
     bookingLink: 'https://www.fresha.com/a/meraki-wellness-centre-windhoek-the-village-liliencron-street-bf9zjf91',
     staff: [
@@ -79,35 +79,34 @@ export function Locations() {
   return (
     <section
       ref={containerRef}
-      className="relative w-full bg-background-alt overflow-hidden"
-      style={{ height: '100vh' }}
+      className="relative w-full bg-background-alt overflow-hidden py-16 lg:py-0"
+      style={{ height: 'auto', minHeight: '100vh' }}
     >
-      {/* Sticky container */}
-      <div className="sticky top-0 h-screen flex flex-col items-center justify-center overflow-hidden">
-        <div className="text-center mb-16">
+      {/* Sticky container - only sticky on desktop */}
+      <div className="lg:sticky top-0 lg:h-screen flex flex-col items-center justify-center overflow-hidden py-10 lg:py-0">
+        <div className="text-center mb-10 lg:mb-16">
         <h2 className="text-secondary text-4xl md:text-5xl font-serif-display font-medium mb-4">
           Where to find us
         </h2>
-        
       </div>
         
-        <div className="max-w-7xl mx-auto px-4 md:px-10 w-full">
-          <div className="grid grid-cols-3 gap-8 items-center">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8 items-start lg:items-center">
             {/* Left Column: Location Image - State-based */}
-            <div className="relative h-[60vh] flex flex-col items-center justify-start">
+            <div className="relative order-2 lg:order-1 h-auto lg:h-[60vh] flex flex-col items-center justify-center">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={activeLocation.key}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                  className="flex flex-col items-center justify-center"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center justify-center w-full"
                 >
-                  <div className="mb-2 text-center font-serif-display text-lg italic text-text-muted">
+                  <div className="mb-4 text-center font-serif-display text-lg italic text-text-muted px-4">
                     {activeLocation.address}
                   </div>
-                  <div className="relative w-full min-w-[20vw] aspect-square rounded-xl overflow-hidden shadow-2xl border-4 border-white">
+                  <div className="relative w-full max-w-[300px] lg:max-w-none aspect-square rounded-xl overflow-hidden shadow-2xl border-4 border-white">
                     <Image
                       src={activeLocation.image}
                       alt={activeLocation.name}
@@ -125,11 +124,11 @@ export function Locations() {
             </div>
 
             {/* Center Column: Location Names - Scroll-based opacity, clickable */}
-            <div className="relative flex flex-col items-center justify-center text-center min-h-[60vh]">
-              <h3 className="text-primary font-bold text-xs tracking-[0.2em] uppercase mb-6">
+            <div className="relative order-1 lg:order-2 flex flex-col items-center justify-center text-center py-6 lg:py-0 lg:min-h-[60vh]">
+              <h3 className="text-primary font-bold text-xs tracking-[0.2em] uppercase mb-4 lg:mb-6">
                 Our Locations
               </h3>
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-row lg:flex-col gap-8 lg:gap-6">
                 {locationsData.map((location, index) => (
                   <motion.button
                     key={location.key}
@@ -138,7 +137,7 @@ export function Locations() {
                       opacity: index === 0 ? erosOpacity : villageOpacity,
                       scale: index === 0 ? erosScale : villageScale,
                     }}
-                    className={`cursor-pointer py-4 font-serif-display text-5xl md:text-6xl tracking-tight transition-all hover:text-primary ${
+                    className={`cursor-pointer py-2 lg:py-4 font-serif-display text-4xl md:text-6xl tracking-tight transition-all hover:text-primary ${
                       activeIndex === index ? 'text-primary' : 'text-secondary'
                     }`}
                   >
@@ -149,31 +148,31 @@ export function Locations() {
             </div>
 
             {/* Right Column: Staff - State-based */}
-            <div className="relative h-[60vh] flex flex-col items-center justify-start">
+            <div className="relative order-3 lg:order-3 h-auto lg:h-[60vh] flex flex-col items-center justify-center">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={activeLocation.key}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                  className="flex flex-col items-center justify-center gap-4"
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.95 }}
+                  transition={{ duration: 0.3 }}
+                  className="flex flex-col items-center justify-center gap-6 w-full"
                 >
-                  <div className="mb-2 text-center font-serif-display text-lg italic text-text-muted">
+                  <div className="text-center font-serif-display text-lg italic text-text-muted">
                     Meet the {activeLocation.name} Team
                   </div>
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-2 lg:grid-cols-2 gap-4">
                     {activeLocation.staff.map((member) => (
                       <div
                         key={member.name}
-                        className="flex flex-col items-center bg-white p-4 rounded-xl shadow-lg border border-[#f2ebe0]"
+                        className="flex flex-col  items-center bg-white p-4 rounded-xl shadow-lg border border-[#f2ebe0]"
                       >
-                        <div className="w-20 h-20 rounded-full overflow-hidden mb-2 border-2 border-primary/20">
+                        <div className="w-32 h-32 rounded-full overflow-hidden mb-2 border-2 border-primary/20">
                           <Image
                             src={member.image || '/images/generic-avatar-feminine.svg'}
                             alt={member.name}
-                            width={80}
-                            height={80}
+                            width={256}
+                            height={256}
                             style={{ objectPosition: member.objectPosition }}
                             className="object-cover w-full h-full"
                           />

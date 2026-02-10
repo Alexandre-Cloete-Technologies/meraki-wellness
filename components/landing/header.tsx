@@ -87,7 +87,7 @@ export function Header() {
                         Eros
                       </h3>
                       <p className="text-sm text-text-secondary">
-                        Liebig Street, Windhoek
+                        150 Olof Palme street, Eros
                       </p>
                     </div>
                     <span className="material-symbols-outlined text-2xl text-text-secondary group-hover:text-primary transition-colors">
@@ -106,7 +106,7 @@ export function Header() {
                         The Village
                       </h3>
                       <p className="text-sm text-text-secondary">
-                        Liliencron Street, Windhoek
+                        Unit 16, The Village, Liliencrone street, Eros
                       </p>
                     </div>
                     <span className="material-symbols-outlined text-2xl text-text-secondary group-hover:text-primary transition-colors">

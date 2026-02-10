@@ -192,10 +192,10 @@ experience.
                 transition: { duration: 0.8, ease: "easeInOut", delay: 0.5 },
               },
             }}
-            className="flex  flex-row mb-16 text-left items-center text-center gap-4"
+            className="flex flex-col lg:flex-row mb-16 items-center text-center lg:text-left gap-8"
             >
               
-<div className="flex flex-col items-start gap-2 w-1/2">
+<div className="flex flex-col items-center lg:items-start gap-2 w-full lg:w-1/2">
 
             <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium leading-[1.1]">
               Authenticity 
@@ -208,9 +208,9 @@ wellness practices, indigenous ingredients, and African-inspired design into eve
 of our services.
             </p>
 </div>
- <div className="relative overflow-hidden rounded-lg w-1/4">
+ <div className="relative overflow-hidden rounded-lg w-full max-w-sm lg:w-1/4">
               <Image
-                alt="Namibian Flag"
+                alt="Meraki Wellness authenticity"
                 src="/images/meraki-authenticity.jpg"
                 width={800}
                 height={600}
@@ -232,10 +232,10 @@ of our services.
                 transition: { duration: 0.8, ease: "easeInOut", delay: 0.5 },
               },
             }}
-            className="flex flex-row-reverse mb-16 text-left items-center text-center gap-4"
+            className="flex flex-col lg:flex-row-reverse mb-16 items-center text-center lg:text-left gap-8"
             >
          
-         <div className="flex flex-col items-start gap-2 w-1/2">
+         <div className="flex flex-col items-center lg:items-start gap-2 w-full lg:w-1/2">
 
 
             <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium leading-[1.1]">
@@ -243,14 +243,14 @@ of our services.
               
             </h2>
                
-            <p className="text-text-main text-lg mb-6 leading-relaxed font-light w-3/4">
+            <p className="text-text-main text-lg mb-6 leading-relaxed font-light w-full lg:w-3/4">
               We are committed to delivering exceptional service through professional expertise, attention to detail, and continuous improvement, ensuring every client experience
 reflects our premium standards.
             </p>
          </div>
- <div className="relative overflow-hidden rounded-lg w-1/4">
+ <div className="relative overflow-hidden rounded-lg w-full max-w-sm lg:w-1/4">
               <Image
-                alt="Namibian Flag"
+                alt="Meraki Wellness excellence"
                 src="/images/excellence-meraki.jpg"
                 width={800}
                 height={600}
@@ -272,10 +272,10 @@ reflects our premium standards.
                 transition: { duration: 0.8, ease: "easeInOut", delay: 0.5 },
               },
             }}
-            className="flex flex-row mb-16 text-left items-center text-center gap-4"
+            className="flex flex-col lg:flex-row mb-16 items-center text-center lg:text-left gap-8"
             >
             
-<div className="flex flex-col items-start gap-2 w-1/2">
+<div className="flex flex-col items-center lg:items-start gap-2 w-full lg:w-1/2">
 
             <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium leading-[1.1]">
               Personalized Care 
@@ -287,9 +287,9 @@ us to tailor treatments that meet individual needs and enhance overall well-bein
             </p>
 </div>
 
- <div className="relative overflow-hidden rounded-lg w-1/4">
+  <div className="relative overflow-hidden rounded-lg w-full max-w-sm lg:w-1/4">
               <Image
-                alt="Namibian Flag"
+                alt="Meraki Wellness personalized care"
                 src="/images/personalized-care-meraki.jpg"
                 width={800}
                 height={600}
@@ -312,12 +312,12 @@ us to tailor treatments that meet individual needs and enhance overall well-bein
                 transition: { duration: 0.8, ease: "easeInOut", delay: 0.5 },
               },
             }}
-            className="flex flex-row-reverse mb-8 text-left items-center text-center gap-4"
+            className="flex flex-col lg:flex-row-reverse mb-8 items-center text-center lg:text-left gap-8"
             >
            
 
             
-            <div className="flex flex-col items-start gap-2 w-1/2">
+            <div className="flex flex-col items-center lg:items-start gap-2 w-full lg:w-1/2">
             <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium leading-[1.1]">
               Tranquility & Balance
               
@@ -329,7 +329,7 @@ holistic harmony between the body, mind, and soul.
             </p>
 
             </div>
-  <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.5, ease: "easeIn" }} className="relative h-full max-h-[80vh] w-auto aspect-[9/16] rounded-xl overflow-hidden shadow-2xl mx-auto">
+  <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.5, ease: "easeIn" }} className="relative h-[400px] lg:h-full max-h-[80vh] w-full max-w-sm lg:w-auto aspect-[9/16] rounded-xl overflow-hidden shadow-2xl mx-auto">
                <iframe
                 src="https://www.youtube.com/embed/S868YE1eRlQ?autoplay=1&mute=1&controls=0&loop=1&playlist=S868YE1eRlQ"
                 className="w-full h-full pointer-events-none scale-105"
@@ -353,10 +353,10 @@ holistic harmony between the body, mind, and soul.
                 transition: { duration: 0.8, ease: "easeInOut", delay: 0.5 },
               },
             }}
-            className="flex flex-row mb-8 text-left items-center text-center gap-4"
+            className="flex flex-col lg:flex-row mb-8 items-center text-center lg:text-left gap-8"
             >
             
-            <div className="flex flex-col items-start gap-2 w-1/2">
+            <div className="flex flex-col items-center lg:items-start gap-2 w-full lg:w-1/2">
             <h2 className="text-secondary text-5xl md:text-6xl font-serif-display font-medium leading-[1.1]">
               Sustainability & Community 
               
@@ -369,9 +369,9 @@ professionals within the spa and wellness industry.
             </p>
 
             </div>
- <div className="relative overflow-hidden rounded-lg w-1/4">
+ <div className="relative overflow-hidden rounded-lg w-full max-w-sm lg:w-1/4">
               <Image
-                alt="Namibian Flag"
+                alt="Meraki Wellness sustainability and community"
                 src="/images/sustainability-and-community-meraki.jpg"
                 width={800}
                 height={600}
