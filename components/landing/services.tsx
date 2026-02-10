@@ -7,12 +7,12 @@ export function Services() {
   const services = [
     {
       title: "Massages",
-      description: "Deep tissue relief using traditional African Rungu wooden sticks.",
+      description: "Deep tissue relief and relaxation tailored to your body's needs.",
       image: "/images/four-hands-massage.jpeg",
     },
     {
       title: "Eyebrows",
-      description: "Melting away tension with smooth, heated volcanic stones.",
+      description: "Expertly shaped and groomed to frame and enhance your features.",
       image: "/images/eyebrows-services.jpg",
     },
     {
@@ -22,7 +22,7 @@ export function Services() {
     },
     {
       title: "Waxings",
-      description: "Synchronized massage for the ultimate relaxing experience.",
+      description: "Smooth, professional hair removal for silky, long-lasting results.",
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAVAmORnTRHcitZKZVtpmpG2Db1aytKhgbGD-81m82-juikwTgrLTRkHxY87Uk-Um1ejZrde73qkwHdlQEMO6cUNipq5QsbBYOgUw73uCl7JRwjXyoi-Ci_4zIgTSjXbs8mlYTmxCYrsdy5Fh0g99S7LWoqEqhcwJaJqa9ESyP-qRNKZ8bc26o17WE_-hS_87ov7MihH9HZ3G7PmwwKml_lPzLGAKEpL8Z3JV3PtLwfjvx8tT0jd0lCO74u9vPYN1vur35kX_ltm_Q",
 
     },
@@ -87,12 +87,12 @@ export function Services() {
             <p className="text-text-muted text-sm leading-relaxed mb-4 px-4">
               {service.description}
             </p>
-            <Link
+            {/* <Link
               href="#"
               className="text-primary text-xs font-bold uppercase tracking-widest border-b border-primary/30 pb-1 hover:border-primary transition-colors"
             >
               Discover
-            </Link>
+            </Link> */}
           </motion.div>
         ))}
       </motion.div>
