@@ -15,10 +15,11 @@ const locationsData = [
     image: '/images/tranquility-and-balance-meraki.jpg',
     bookingLink: 'https://www.fresha.com/p/hendrina-nghifitikeko-5979906',
     staff: [
-      { name: 'Tamera Mungunda', role: 'Spa Therapist', image: '/images/team-tamera.jpg' },
-      { name: 'Suama Christoph', role: 'Qualified Therapist', image: '/images/team-suama.jpg' },
-       { name: 'Tamer Mungunda', role: 'Spa Therapist', image: '/images/team-tamera.jpg' },
-      { name: 'Suam Christoph', role: 'Qualified Therapist', image: '/images/team-suama.jpg' },
+      { name: 'Hendrina Nghifitikeko', role: 'MD', image: '/images/team-md.jpg', objectPosition: '65% 20%' }, 
+      { name: 'Albertine', role: 'Spa Therapist', image: '/images/team-albertine.jpeg', objectPosition: '65% 30%' },
+       { name: 'Loritha', role: 'Spa Therapist', image: '/images/team-loritha.jpeg', objectPosition: '65% 20%' },
+      { name: 'Cassandra', role: 'Spa Therapist', image: '/images/team-cassandra.jpeg', objectPosition: '65% 30%' },
+      { name: 'Josephine', role: 'Spa Therapist', image: '' },
     ],
   },
   {
@@ -28,10 +29,9 @@ const locationsData = [
     image: '/images/meraki-wellness.jpeg',
     bookingLink: 'https://www.fresha.com/a/meraki-wellness-centre-windhoek-the-village-liliencron-street-bf9zjf91',
     staff: [
-      { name: 'Merie-ann A Rudatt', role: 'Nail Technician', image: '/images/team-merie-ann.jpg' },
-     { name: 'Suama Christoph', role: 'Qualified Therapist', image: '/images/team-suama.jpg' },
-       { name: 'Tameraa Mungunda', role: 'Spa Therapist', image: '/images/team-tamera.jpg' },
-      { name: 'Suamaa Christoph', role: 'Qualified Therapist', image: '/images/team-suama.jpg' },
+      { name: 'Anna', role: 'Spa Therapist', image: '' },
+     { name: 'Ebba', role: 'Spa Therapist', image: '' }, 
+       { name: 'Idda', role: 'Spa Therapist', image: '/images/team-idda.jpeg', objectPosition: '65% 30%' },
     ],
   },
 ];
@@ -170,10 +170,11 @@ export function Locations() {
                       >
                         <div className="w-20 h-20 rounded-full overflow-hidden mb-2 border-2 border-primary/20">
                           <Image
-                            src={member.image}
+                            src={member.image || '/images/generic-avatar-feminine.svg'}
                             alt={member.name}
                             width={80}
                             height={80}
+                            style={{ objectPosition: member.objectPosition }}
                             className="object-cover w-full h-full"
                           />
                         </div>

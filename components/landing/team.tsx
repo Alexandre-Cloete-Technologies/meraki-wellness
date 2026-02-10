@@ -24,11 +24,11 @@ export function Team() {
             <div className="grid lg:grid-cols-2 gap-12 items-center relative z-10">
                 <div className="order-2 lg:order-1">
                     <h3 className="text-6xl md:text-8xl font-serif-display leading-none mb-2">The <br/> <span className="italic text-[#d4af37]">MD</span></h3>
-                    <h4 className="text-2xl font-bold uppercase tracking-wider mb-8 text-white/90">Hendrina Amakali</h4>
+                    <h4 className="text-2xl font-bold uppercase tracking-wider mb-8 text-white/90">Hendrina Nghifitikeko</h4>
                     
                     <div className="space-y-6 text-white/80 font-light leading-relaxed">
                         <p>
-                            Hendrina Amakali is the founder of Meraki Investment CC, a Namibian registered entity. Hendrina is a Beauty therapist / Spa Manager by profession with OWS, ITEC and CIDESCO international Diplomas.
+                            Hendrina Nghifitikeko is the founder of Meraki Investment CC, a Namibian registered entity. Hendrina is a Beauty therapist / Spa Manager by profession with OWS, ITEC and CIDESCO international Diplomas.
                         </p>
                         <p>
                             Hendrina possesses over 4 years experience in managerial position onboard cruise lines working for One Spa World in the US. Hendrina completed her beauty therapy upgraded and customer service modules in Miami.
@@ -44,7 +44,7 @@ export function Team() {
                 <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
                     <div className="relative w-full max-w-md aspect-[3/4] rounded-[2rem] overflow-hidden border-4 border-[#d4af37]/30 shadow-xl">
                          <Image
-                            alt="Hendrina Amakali - The MD"
+                            alt="Hendrina Nghifitikeko - The MD"
                             src="/images/team-md2.jpg"
                             fill
                             className="object-cover object-[center_20%] scale-120"

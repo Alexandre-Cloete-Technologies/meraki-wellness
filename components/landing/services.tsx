@@ -6,24 +6,25 @@ import { motion } from "framer-motion";
 export function Services() {
   const services = [
     {
-      title: "Rungu Massage",
+      title: "Massages",
       description: "Deep tissue relief using traditional African Rungu wooden sticks.",
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAVAmORnTRHcitZKZVtpmpG2Db1aytKhgbGD-81m82-juikwTgrLTRkHxY87Uk-Um1ejZrde73qkwHdlQEMO6cUNipq5QsbBYOgUw73uCl7JRwjXyoi-Ci_4zIgTSjXbs8mlYTmxCYrsdy5Fh0g99S7LWoqEqhcwJaJqa9ESyP-qRNKZ8bc26o17WE_-hS_87ov7MihH9HZ3G7PmwwKml_lPzLGAKEpL8Z3JV3PtLwfjvx8tT0jd0lCO74u9vPYN1vur35kX_ltm_Q",
+      image: "/images/four-hands-massage.jpeg",
     },
     {
-      title: "Hot Stone Therapy",
+      title: "Eyebrows",
       description: "Melting away tension with smooth, heated volcanic stones.",
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAWKfEPa7IpBV7vWjSJ4eyOJvKsWeBU2Zsb61YlsJMBuC52OFRlAiM2_WPD0Tk2MFj-nilNnTZAB5stXcfcVUSQ4w39iBVuTqPXD1QRHMcVU5kYi71nPi6bJtPcQgytgSzvGcuz5j6aIY2D_tjaHhmx5iWGTYkDtGr6UjuDiO6rzDKPBJXP_1RpvHBEDUmYqkWng1ecArpsQPPjCFOyGo4vX1vzAdJJQKtlp-G574m_elqOYRSqSvh55kLxiySHUl15Tn6SBZoGBXA",
+      image: "/images/eyebrows-services.jpg",
     },
     {
-      title: "Optiphi Facials",
+      title: "Facials",
       description: "Advanced skin rejuvenation science meeting luxury relaxation.",
       image: "/images/meraki-chemical-peel.webp",
     },
     {
-      title: "Four Hands Massage",
+      title: "Waxings",
       description: "Synchronized massage for the ultimate relaxing experience.",
-      image: "/images/four-hands-massage.jpeg",
+      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAVAmORnTRHcitZKZVtpmpG2Db1aytKhgbGD-81m82-juikwTgrLTRkHxY87Uk-Um1ejZrde73qkwHdlQEMO6cUNipq5QsbBYOgUw73uCl7JRwjXyoi-Ci_4zIgTSjXbs8mlYTmxCYrsdy5Fh0g99S7LWoqEqhcwJaJqa9ESyP-qRNKZ8bc26o17WE_-hS_87ov7MihH9HZ3G7PmwwKml_lPzLGAKEpL8Z3JV3PtLwfjvx8tT0jd0lCO74u9vPYN1vur35kX_ltm_Q",
+
     },
   ];
 
