@@ -102,9 +102,19 @@ export function Footer() {
                   location_on
                 </span>
                 <span>
-                 150 Olof Palme street, Eros
+                 (Eros)
                   <br />
-                  Unit 16, The Village, Liliencrone street, Eros
+                  150 Olof Palme Street, Eros Park, Windhoek
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-white/50 text-sm mt-1">
+                  location_on
+                </span>
+                <span>
+                 (The Village)
+                  <br />
+                  Unit 16, The Village, Liliencrone street, Eros, Windhoek
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -128,11 +138,11 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-white/70">
               <li className="flex justify-between border-b border-white/10 pb-2">
                 <span>Mon - Fri</span>
-                <span>08:00 - 19:00</span>
+                <span>09:00 - 19:00</span>
               </li>
               <li className="flex justify-between border-b border-white/10 pb-2">
                 <span>Saturday & Sunday</span>
-                <span>08:00 - 15:00</span>
+                <span>09:00 - 15:00</span>
               </li>
               
             </ul>
