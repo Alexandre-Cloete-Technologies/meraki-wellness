@@ -120,9 +120,9 @@ export function Header() {
         </div>
 
         {/* Mobile Menu Button - Absolute positioned to stay on right */}
-        <button className="md:hidden absolute right-4 text-secondary">
+        {/* <button className="md:hidden absolute right-4 text-secondary">
           <span className="material-symbols-outlined text-3xl">menu</span>
-        </button>
+        </button> */}
       </div>
     </header>
   );

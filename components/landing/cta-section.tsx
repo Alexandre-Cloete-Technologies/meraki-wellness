@@ -81,7 +81,7 @@ export function CtaSection() {
               </div>
             </DialogContent>
           </Dialog>
-          </div>
+        </div>
     </section>
   );
 }

@@ -25,8 +25,8 @@ const dancing = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "Meraki Wellness Centre | Luxury African Spa",
-  description: "Experience the essence of African luxury and holistic healing in the heart of Namibia. Make a booking today for a massage, facial, or any of our other wellness treatments.",
+  title: "Meraki Wellness Centre | Eros, Windhoek",
+  description: "Experience the essence of African luxury and holistic healing in the heart of Namibia. For bookings call +264 81 247 8077 or book online.",
   keywords: ["Meraki Wellness Centre", "Luxury African Spa", "Namibia", "Massage Eros", "Facial", "Wellness Treatments", "Spa", "Eros", "Massage Windhoek", "Facial Windhoek", "Wellness Treatments Windhoek", "Spa Windhoek", "Spa Eros"],
 };
 
