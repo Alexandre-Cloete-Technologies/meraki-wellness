@@ -121,14 +121,14 @@ export function Footer() {
                 <span className="material-symbols-outlined text-white/50 text-sm">
                   call
                 </span>
-                <span>081 247 8077</span>
+                <span> ( WhatsApp ) 081 637 7988</span>
               </li>
-              <li className="flex items-center gap-3">
+              {/* <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-white/50 text-sm">
                   mail
                 </span>
                 <span>merakiwellnessc@gmail.com</span>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="col-span-1">
